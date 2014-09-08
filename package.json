@@ -1,0 +1,31 @@
+{
+  "name": "garble",
+  "description": "A fun text-garbler using Unicode combining characters (diacritics).",
+  "keywords": ["fun", "unicode", "combining", "characters", "UTF-8"],
+  "author": "Spencer Rinehart <anubis@overthemonkey.co>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nubs/garble.git"
+  },
+  "main": "garble.js",
+  "version": "0.1.0",
+  "devDependencies": {
+    "uglify-js": "2.x",
+    "eslint": "0.8.x"
+  },
+  "scripts": {
+    "test": "eslint garble.js",
+    "build": "uglifyjs garble.js -o garble-min.js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/nubs/garble/master/LICENSE"
+    }
+  ],
+  "files": [
+    "garble.js",
+    "garble-min.js",
+    "LICENSE"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "garble",
+  "version": "0.1.0",
+  "main": "garble.js",
+  "keywords": ["fun", "unicode", "combining", "characters", "UTF-8"]
+}
