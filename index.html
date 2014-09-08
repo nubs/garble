@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <title>garble.js</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.2.0+2/lumen/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a id="brand" class="navbar-brand" href="./">garble.js</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <form role="form" id="garble-form">
+        <div class="form-group">
+          <div class="row">
+            <div class="col-sm-6">
+              <textarea class="form-control" id="input" rows="5" placeholder="Enter some text to garble"></textarea>
+            </div>
+            <div class="col-sm-6">
+              <textarea class="form-control" id="output" rows="5" placeholder="View garbled text" readonly></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Garble</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="garble-min.js"></script>
+    <script>
+    $("#garble-form").on("submit", function() {
+        $("#output").val(garble($("#input").val()));
+
+        return false;
+    });
+    </script>
+  </body>
+</html>
