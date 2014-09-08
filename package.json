@@ -8,7 +8,7 @@
     "url": "git://github.com/nubs/garble.git"
   },
   "main": "garble.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "devDependencies": {
     "uglify-js": "2.x",
     "eslint": "0.8.x",
