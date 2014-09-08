@@ -15,7 +15,7 @@
     "bower": "1.x"
   },
   "scripts": {
-    "test": "eslint garble.js",
+    "test": "eslint garble.js bin/*",
     "build": "uglifyjs garble.js -o garble-min.js"
   },
   "licenses": [
@@ -27,6 +27,10 @@
   "files": [
     "garble.js",
     "garble-min.js",
+    "bin",
     "LICENSE"
-  ]
+  ],
+  "bin": {
+    "garble": "./bin/garble.js"
+  }
 }
