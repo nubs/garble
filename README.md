@@ -5,6 +5,9 @@ A fun JavaScript text-garbler using Unicode combining characters (diacritics).
 [![Total Downloads](http://img.shields.io/npm/dm/garble.svg?style=flat)](https://www.npmjs.org/package/garble)
 [![License](http://img.shields.io/npm/l/garble.svg?style=flat)](https://www.npmjs.org/package/garble)
 
+## Try it Out!
+You can try it out in the browser [here](http://nubs.github.io/garble/).
+
 ## Usage
 This library exports a function (named `garble` for browser users) that garbles
 text in a random fashion using Unicode combining characters (diacritics).  For
