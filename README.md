@@ -26,3 +26,11 @@ var garble = require("garble");
 console.log(garble("hello, world", 0, 1));
 // ḧe̟l͕l̝o, w̅orl̢d̅
 ```
+
+## Command-Line Usage
+Included in the npm package is a CLI executable that garbles the input.  For example:
+```bash
+garble
+hello world
+h̤̊͟͏e̵̖̠̚l̫ͬ͠ͅl͚̓̀ͤo̜̻̔͆ ͓͗͒̕w̧ͩ̂̒ơ̵̙̊r̬ͫ̾̔l̺͔͓ͦd̷̘͈̾
+```
