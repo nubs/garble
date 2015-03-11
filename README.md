@@ -12,6 +12,7 @@ You can try it out in the browser [here](http://nubs.github.io/garble/).
 This library exports a function (named `garble` for browser users) that garbles
 text in a random fashion using Unicode combining characters (diacritics).  For
 example:
+
 ```js
 var garble = require("garble");
 
@@ -19,7 +20,9 @@ console.log(garble("hello, world"));
 // h͚̠̙̒e̖͇ͬ̕ļ̹̯ͩl̘ͮ͢͞o̷̪͓ͅ,͚̑̊͢ ̤̫̿͌w̥̦̹͢ö̥͊͜r̜̓̅͘l̓̉̀͝d̫́̉
 ```
 
-It takes additional parameters to control the minimum and maximum number of diacritics added to each character (defaults to 20-30):
+It takes additional parameters to control the minimum and maximum number of
+diacritics added to each character (defaults to 20-30):
+
 ```js
 var garble = require("garble");
 
@@ -28,7 +31,9 @@ console.log(garble("hello, world", 0, 1));
 ```
 
 ## Command-Line Usage
-Included in the npm package is a CLI executable that garbles the input.  For example:
+Included in the npm package is a CLI executable that garbles the input.  For
+example:
+
 ```bash
 garble
 hello world
