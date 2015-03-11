@@ -39,3 +39,22 @@ garble
 hello world
 h̤̊͟͏e̵̖̠̚l̫ͬ͠ͅl͚̓̀ͤo̜̻̔͆ ͓͗͒̕w̧ͩ̂̒ơ̵̙̊r̬ͫ̾̔l̺͔͓ͦd̷̘͈̾
 ```
+
+### Docker Usage
+This is also available using [docker](https://docker.com).  You can build it
+from source by running
+
+```bash
+docker build -t garble .
+docker run -it garble
+hello world
+h̤̊͟͏e̵̖̠̚l̫ͬ͠ͅl͚̓̀ͤo̜̻̔͆ ͓͗͒̕w̧ͩ̂̒ơ̵̙̊r̬ͫ̾̔l̺͔͓ͦd̷̘͈̾
+```
+
+Or to use the image deployed to Docker Hub as a trusted build:
+
+```bash
+docker run -it nubs/garble
+hello world
+h̤̊͟͏e̵̖̠̚l̫ͬ͠ͅl͚̓̀ͤo̜̻̔͆ ͓͗͒̕w̧ͩ̂̒ơ̵̙̊r̬ͫ̾̔l̺͔͓ͦd̷̘͈̾
+```
