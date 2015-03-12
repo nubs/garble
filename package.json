@@ -2,7 +2,7 @@
   "name": "garble",
   "description": "A fun text-garbler using Unicode combining characters (diacritics).",
   "keywords": ["fun", "unicode", "combining", "characters", "UTF-8"],
-  "author": "Spencer Rinehart <anubis@overthemonkey.co>",
+  "author": "Spencer Rinehart <anubis@overthemonkey.com>",
   "repository": {
     "type": "git",
     "url": "git://github.com/nubs/garble.git"
