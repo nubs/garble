@@ -27,7 +27,7 @@
     "radix": 2,
     "space-after-keywords": [2, "always"],
     "space-in-brackets": [2, "never"],
-    "space-unary-word-ops": 2,
+    "space-unary-ops": 2,
     "strict": 0,
     "wrap-iife": 2
   }
