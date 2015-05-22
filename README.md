@@ -4,6 +4,7 @@ A fun JavaScript text-garbler using Unicode combining characters (diacritics).
 [![Latest Stable Version](http://img.shields.io/npm/v/garble.svg?style=flat)](https://www.npmjs.org/package/garble)
 [![Total Downloads](http://img.shields.io/npm/dm/garble.svg?style=flat)](https://www.npmjs.org/package/garble)
 [![License](http://img.shields.io/npm/l/garble.svg?style=flat)](https://www.npmjs.org/package/garble)
+[![Dependency Status](https://www.versioneye.com/user/projects/555f85d6634daacd41000fee/badge.svg?style=flat)](https://www.versioneye.com/user/projects/555f85d6634daacd41000fee)
 
 ## Try it Out!
 You can try it out in the browser [here](http://nubs.github.io/garble/).
