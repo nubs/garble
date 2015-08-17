@@ -59,3 +59,7 @@ docker run -it nubs/garble
 hello world
 h̤̊͟͏e̵̖̠̚l̫ͬ͠ͅl͚̓̀ͤo̜̻̔͆ ͓͗͒̕w̧ͩ̂̒ơ̵̙̊r̬ͫ̾̔l̺͔͓ͦd̷̘͈̾
 ```
+
+## License
+garble is licensed under the MIT license.  See [LICENSE](LICENSE) for the full
+license text.
