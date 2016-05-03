@@ -18,12 +18,7 @@
     "test": "eslint garble.js bin/*",
     "build": "uglifyjs garble.js -o garble-min.js"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/nubs/garble/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "files": [
     "garble.js",
     "garble-min.js",
