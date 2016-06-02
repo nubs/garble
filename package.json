@@ -11,8 +11,8 @@
   "version": "0.1.1",
   "devDependencies": {
     "uglify-js": "^2.6.2",
-    "eslint": "^2.3.0",
-    "bower": "^1.7.7"
+    "eslint": "^2.11.1",
+    "bower": "^1.7.9"
   },
   "scripts": {
     "test": "eslint garble.js bin/*",
