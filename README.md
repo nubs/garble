@@ -7,7 +7,7 @@ A fun JavaScript text-garbler using Unicode combining characters (diacritics).
 [![Dependency Status](https://www.versioneye.com/user/projects/555f85d6634daacd41000fee/badge.svg?style=flat)](https://www.versioneye.com/user/projects/555f85d6634daacd41000fee)
 
 ## Try it Out!
-You can try it out in the browser [here](http://nubs.github.io/garble/).
+You can try it out in the browser [here](https://nubs.github.io/garble/).
 
 ## Usage
 This library exports a function (named `garble` for browser users) that garbles
