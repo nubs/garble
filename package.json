@@ -10,9 +10,9 @@
   "main": "garble.js",
   "version": "0.1.1",
   "devDependencies": {
-    "uglify-js": "^2.7.3",
-    "eslint": "^3.6.0",
-    "bower": "^1.7.9"
+    "uglify-js": "^3.0.0",
+    "eslint": "^4.5.0",
+    "bower": "^1.8.0"
   },
   "scripts": {
     "test": "eslint garble.js bin/*",
