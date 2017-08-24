@@ -30,8 +30,8 @@
     maxDiacritics = typeof maxDiacritics === "undefined" ? 30 : maxDiacritics;
     var diactricRange = maxDiacritics - minDiacritics + 1;
 
-    for (var i = 0; i < str.length; i++) {
-      garbled += str.charAt(i);
+    for (var c of str) {
+      garbled += c;
       var numDiactritics = Math.floor(Math.random() * diactricRange) + minDiacritics;
       for (var j = 0; j < numDiactritics; j++) {
         garbled += randomDiacritic();
